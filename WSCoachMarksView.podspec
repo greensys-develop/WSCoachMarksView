@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Dimitry Bentsionov" => "dimitry@workshirtinc.com" }
   s.source       = { :git => "https://github.com/workshirt/WSCoachMarksView.git", :tag => s.version.to_s }
-  s.platform     = :ios
+  s.platform     = :ios, '12.0'
   s.source_files = '*.{h,m}'
   s.frameworks   = 'QuartzCore', 'CoreGraphics'
   s.requires_arc = true
